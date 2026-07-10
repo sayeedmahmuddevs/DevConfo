@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+
+}
+.container{
+    width: 1351px;
+    margin: auto;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* commont Button Style */
+.btn{
+    background:#2563EB;
+    border: none;
+    border-radius:10px ;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #0447d8;
+}
+
+.btnOutline{
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius:10px ;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btnOutline{
+    background: #2563EB;
+    border: none;
+}
+
+/* navBar Style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logoItem{
+    display: flex;
+    gap: 5px;
+}
+
+.navList{
+    display: flex;
+    gap: 25px;
+}
+
+.navList li a{
+    font-size: 16px;
+    font-family: inter;
+    font-family: "Inter", sans-serif;
+}
+
+.navList li a:hover{
+    color: #2563EB;
+}
+
+
+
+
+
