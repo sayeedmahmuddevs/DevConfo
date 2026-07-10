@@ -125,7 +125,58 @@ nav{
     margin-top: 200px;
 }
 
+/* Questions regarding Attendance */
+.contentTitle{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: rgb(28, 202, 28);
+}
 
+
+.attendTitle p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.benifitCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+
+
+}
+
+.singleBenifitCard{
+    width: 250px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+    text-align: center;
+    transform: translateY(0);
+    transition: 0.2s ease transform;
+}
+.singleBenifitCard:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 1px 6px rgba(4, 208, 79, 0.5);
+    border: 1px solid rgb(42, 171, 42);
+}
+
+.singleBenifitCard div i{
+    font-size: 50px;
+    color: rgb(220, 78, 78);
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+}
+
+.singleBenifitCard h3{
+    margin-bottom: 70px;
+    font-size: 25px;
+}
 /* Speaker info Section */
 
 .speakerInfo{
@@ -134,11 +185,7 @@ nav{
     justify-content: space-between;
     gap: 40px;
 }
-.contentTitle{
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 60px;
-}
+
 .singleSpeaker{
     border-radius: 10px;
     overflow: hidden;
