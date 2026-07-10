@@ -147,7 +147,13 @@ nav{
 }
 .singleSpeaker img{
     width: 100%;
+    transition:0.2s ease transform;
+    transform: scale(1);
     
+}
+
+.singleSpeaker img:hover{
+    transform: scale(1.05);
 }
 .speakerContent{
     margin-left: 20px;
@@ -200,6 +206,20 @@ nav{
     margin-top: 40px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     padding: 30px;
+    transition:0.2s ease all;
+    transform: scale(1);
+    cursor: pointer;
+}
+.singleCard:hover{
+    transform: scale(1.05);
+}
+
+.singleCard:nth-child(2){
+    background-color: black;
+    color: white;
+}
+.singleCard:nth-child(2) h5{
+    color: #2563EB;
 }
 .singleCard ul{
     line-height: 40px;
@@ -213,4 +233,6 @@ nav{
 
 .singleCard button{
     width: 100%;
+
 }
+
