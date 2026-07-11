@@ -5,7 +5,7 @@
 
 }
 .container{
-    width: 1351px;
+    max-width: 1240px;
     margin: auto;
 }
 section{
@@ -140,7 +140,8 @@ nav{
 }
 
 .benifitCard{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: space-between;
     align-items: center;
     gap: 40px;
@@ -150,7 +151,6 @@ nav{
 }
 
 .singleBenifitCard{
-    width: 250px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
@@ -283,3 +283,47 @@ nav{
 
 }
 
+
+/* shedule style */
+
+.shedule{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 80px;
+    margin-top: 50px;
+    
+}
+
+.singleShedule{
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transform: scale(1);
+    transition: 0.2s ease all;
+}
+
+.singleShedule:hover{
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(22, 230, 95, 0.5);
+    border: 1px solid rgb(52, 160, 52);
+
+}
+
+.singleShedule h5{
+    color: rgb(40, 157, 40);
+    margin-bottom: 30px;
+    
+}
+
+.singleShedule h2{
+    margin-bottom: 40px;
+}
+
+.singleShedule h4:first-of-type{
+    margin-bottom: 30px;
+}
+
+.singleShedule h4:last-of-type{
+    margin-bottom: 40px;
+}
