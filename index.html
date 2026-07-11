@@ -1,323 +1,383 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevConfo</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
 
     <!-- font Awesome -->
-     <script src="https://kit.fontawesome.com/1f7fbc12ba.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/1f7fbc12ba.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- google font -->
-     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
     </style>
-
-</head>
-<body>
-    
+  </head>
+  <body>
     <!-- Footer Section -->
-     <header>
+    <header>
+      <!-- header  -->
+      <nav class="container">
+        <!-- logo item -->
+        <div class="logoItem">
+          <img src="./assets/logo.png" alt="DevConfo Logo" />
+        </div>
 
-        <!-- header  -->
-        <nav class="container">
+        <!-- navBar -->
+        <ul class="navList">
+          <li><a href="">Speaker</a></li>
+          <li><a href="">Shedule</a></li>
+          <li><a href="">Tracks</a></li>
+          <li><a href="">Venue</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
 
-            <!-- logo item -->
-            <div class="logoItem">
-                <img src="./assets/logo.png" alt="DevConfo Logo">
+        <div>
+          <button class="btn">Register Now</button>
+        </div>
+      </nav>
+
+      <!-- hero Section -->
+      <section class="hero">
+        <div class="shadowDark"></div>
+
+        <div class="heroContent">
+          <h1>Code. <em>Connect.</em> Creat</h1>
+          <p>
+            Join 4,000+ engineers, founders, and builders at the premier
+            developer conference of 2026. Three days of cutting-edge talks,
+            hands-on workshops, and meaningful connections.
+          </p>
+
+          <button class="btn">Register Now</button>
+        </div>
+      </section>
+    </header>
+
+    <!-- mainContent -->
+    <main class="container">
+      <section class="whyAttendContent">
+        <div class="attendTitle">
+          <h1 class="contentTitle">More Than A Conference</h1>
+          <p>
+            DevConfo 2026 is where developer, innovators, and technology
+            leader's come together to learn, connect, and create the future
+          </p>
+        </div>
+
+        <div class="benifitCard">
+          <div class="singleBenifitCard">
+            <div>
+              <i class="fa-solid fa-rocket"></i>
             </div>
 
-            <!-- navBar -->
-             <ul class="navList">
+            <h3>Build Connections</h3>
+            <p>Meet Developer, founders, and tech communities</p>
+          </div>
+
+          <div class="singleBenifitCard">
+            <div>
+              <i class="fa-solid fa-handshake"></i>
+            </div>
+
+            <h3>Discover Innovation</h3>
+            <p>Explore AI, Cloud, Security, and next-gen technologies</p>
+          </div>
+
+          <div class="singleBenifitCard">
+            <div>
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+
+            <h3>Learn From Expert</h3>
+            <p>Gain insights from industry leaders and experienced developer</p>
+          </div>
+
+          <div class="singleBenifitCard">
+            <div>
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+
+            <h3>Learn From Expert</h3>
+            <p>Gain insights from industry leaders and experienced developer</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h1 class="contentTitle">Meet the Speaker</h1>
+
+        <div class="speakerInfo">
+          <div class="singleSpeaker">
+            <div>
+              <div>
+                <img src="./assets/andrej.png" alt="Andrej's img" />
+              </div>
+
+              <div class="speakerContent">
+                <h6>AI/ML</h6>
+                <h3>Andrej Karpathy</h3>
+                <p>Pretraining team, Anthropic</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="singleSpeaker">
+            <div>
+              <div class="img">
+                <img src="./assets/demis.png" alt="Demis's img" />
+              </div>
+              <div class="speakerContent">
+                <h6>Cloud & Devops</h6>
+                <h3>Demis Hossabis</h3>
+                <p>Co-Founder and CEO, Google DepMind</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="singleSpeaker">
+            <div>
+              <div class="img">
+                <img src="./assets/gary.png" alt="Gary's img" />
+              </div>
+              <div class="speakerContent">
+                <h6>Frontend</h6>
+                <h3>Gary Marcus</h3>
+                <p>Staff Engineers, Vercel</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="singleSpeaker">
+            <div>
+              <div class="img">
+                <img src="./assets/mustafa.png" alt="Mustofa's img" />
+              </div>
+              <div class="speakerContent">
+                <h6>Security</h6>
+                <h3>Mustofa Solaiman</h3>
+                <p>CEO of Microsoft AI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h1 class="contentTitle">Secure your Spot</h1>
+        <p>Early-bird pricing ends August 15, 2026.</p>
+
+        <div class="premiumCard">
+          <div class="singleCard">
+            <div class="cardPrice">
+              <h5>Standard</h5>
+              <h1>$399</h1>
+              <h6>Per Person</h6>
+            </div>
+
+            <ul>
+              <li>Access to all 3 conference days</li>
+              <li>48 curated technical talks</li>
+              <li>2 workshop sessions</li>
+              <li>Networking lunch & coffee breaks</li>
+              <li>Conference swag bag</li>
+              <li>Digital recordings (30 days)</li>
+            </ul>
+            <div>
+              <button class="btnOutline">Get Standerd</button>
+            </div>
+          </div>
+
+          <div class="singleCard">
+            <div class="cardPrice">
+              <h5>Pro</h5>
+              <h1>$749</h1>
+              <h6>Per Person</h6>
+            </div>
+
+            <ul>
+              <li>Everything in Standard</li>
+              <li>Unlimited workshop access</li>
+              <li>Speaker meet & greet</li>
+              <li>VIP networking dinner</li>
+              <li>Lifetime recording access</li>
+              <li>1-on-1 mentorship (30 min)</li>
+            </ul>
+            <div>
+              <button class="btn">Get Pro</button>
+            </div>
+          </div>
+
+          <div class="singleCard">
+            <div class="cardPrice">
+              <h5>Team</h5>
+              <h1>$5,999</h1>
+              <h6>Up to 10 people</h6>
+            </div>
+
+            <ul>
+              <li>Everything in Pro (10 seats)</li>
+              <li>Dedicated team lounge access</li>
+              <li>Private workshop booking</li>
+              <li>Company logo on event page</li>
+              <li>Recruitment booth (1 day)</li>
+              <li>Priority customer support</li>
+            </ul>
+            <div>
+              <button class="btnOutline">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- conference Schedule -->
+
+      <section>
+        <div class="attendTitle">
+          <h1 class="contentTitle">Conference Schedule</h1>
+          <p>
+            Two inspiring days packed with keynotes, workshops, networking, and
+            cutting-edge technology sessions.
+          </p>
+        </div>
+
+        <div class="shedule">
+          <div class="singleShedule">
+            <h5>09:00 AM</h5>
+            <h2>The Future of AI-Powered Development</h2>
+            <h4>Opening Keynote</h4>
+
+            <h4>🎤 Sarah Johnson</h4>
+          </div>
+
+          <div class="singleShedule">
+            <h5>10:00 AM</h5>
+            <h2>Building Full-Stack Apps with Next.js 16</h2>
+            <h4>Technical Session</h4>
+
+            <h4>🎤 Michael Chen</h4>
+          </div>
+
+          <div class="singleShedule">
+            <h5>11:15 AM</h5>
+            <h2>Modern CSS: Container Queries & CSS Nesting</h2>
+            <h4>Frontend Track</h4>
+            <h4>🎤 Aisha Patel</h4>
+          </div>
+
+          <div class="singleShedule">
+            <h5>01:30 PM</h5>
+            <h2>TypeScript Best Practices</h2>
+            <h4>Developer Session</h4>
+
+            <h4>🎤 Emma Wilson</h4>
+          </div>
+
+          <div class="singleShedule">
+            <h5>02:45 PM</h5>
+            <h2>AI Coding Assistants & Developer Productivity</h2>
+            <h4>AI Track</h4>
+
+            <h4>🎤 David Kim</h4>
+          </div>
+
+          <div class="singleShedule">
+            <h5>04:30 PM</h5>
+            <h2>Will AI Replace Developers?</h2>
+            <h4>Panel Discussion</h4>
+
+            <h4>🎤 Industry Experts</h4>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footerTitle">
+          <h1 class="contentTitle">Ready to join DevConfo?</h1>
+          <p class="footerContent">
+            Be part of an inspiring community of developers, innovators, and
+            tech leaders. Learn, connect, and grow through insightful sessions
+            and valuable networking opportunities.
+          </p>
+        </div>
+
+        <div class="footerLink">
+          <div>
+            <div>
+              <div>
+                <img src="./assets/logo.png" alt="" />
+              </div>
+              <p>
+                DevConfo is where technology meets innovation. Join inspiring
+                keynote sessions, hands-on workshops, and meaningful networking
+                opportunities to learn, collaborate, and shape the future of
+                technology.
+              </p>
+            </div>
+            <div class="linkIcon">
+              <span
+                ><a href=""><i class="fa-brands fa-facebook"></i></a
+              ></span>
+              <span
+                ><a href=""><i class="fa-brands fa-github"></i></a
+              ></span>
+              <span
+                ><a href=""><i class="fa-brands fa-linkedin"></i></a
+              ></span>
+              <span
+                ><a href=""><i class="fa-brands fa-twitter"></i></a
+              ></span>
+            </div>
+          </div>
+
+          <div class="linkList">
+            <div>
+              <h4>Quick Liks</h4>
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">about Us</a></li>
                 <li><a href="">Speaker</a></li>
-                <li><a href="">Shedule</a></li>
-                <li><a href="">Tracks</a></li>
-                <li><a href="">Venue</a></li>
-                <li><a href="">Blog</a></li>
-
-             </ul>
-
-             <div>
-                <button class="btn">Register Now</button>
-             </div>
-        </nav>
-
-       <!-- hero Section -->
-        <section class="hero">
-
-            <div class="shadowDark"></div>
-
-            <div class="heroContent">
-                <h1>Code. <em>Connect.</em> Creat</h1>
-                <p>
-                    Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. 
-                    Three days of cutting-edge talks, hands-on workshops, and meaningful connections.
-                </p>
-
-                <button class="btn">Register Now</button>
+                <li><a href="">Tickets</a></li>
+                <li><a href="">Schedule</a></li>
+              </ul>
             </div>
 
-        </section>
-
-     </header>
-
-     <!-- mainContent -->
-     <main class="container">
-
-        <section class="whyAttendContent">
-            <div class="attendTitle">
-                <h1 class="contentTitle">More Than A Conference</h1>
-                <p>DevConfo 2026 is where developer, innovators, and technology leader's come together to learn, connect, and create the future </p>
-
+            <div>
+              <h4>Confernce Highlight</h4>
+              <ul>
+                <li>Keynote session</li>
+                <li>Technical workshop</li>
+                <li>Pennel Discussion</li>
+                <li>Networking Events</li>
+                <li>Startup Showcase</li>
+              </ul>
             </div>
 
-            <div class="benifitCard">
-                <div class="singleBenifitCard">
-                    <div>
-                        <i class="fa-solid fa-rocket"></i>
-                    </div>
-
-                    <h3>Build Connections</h3>
-                    <p>Meet Developer, founders, and tech communities</p>
-
-                </div>
-
-                <div class="singleBenifitCard">
-                    <div>
-                        <i class="fa-solid fa-handshake"></i>
-                    </div>
-
-                    <h3>Discover Innovation</h3>
-                    <p>Explore AI, Cloud, Security, and next-gen technologies</p>
-
-                </div>
-
-                <div class="singleBenifitCard">
-                    <div>
-                        <i class="fa-solid fa-lightbulb"></i>
-                    </div>
-
-                    <h3>Learn From Expert</h3>
-                    <p>Gain insights from industry leaders and experienced developer</p>
-
-                </div>
-
-                <div class="singleBenifitCard">
-                    <div>
-                        <i class="fa-solid fa-bullseye"></i>
-                    </div>
-
-                    <h3>Learn From Expert</h3>
-                    <p>Gain insights from industry leaders and experienced developer</p>
-
-                </div>
-
-
+            <div>
+              <h4>Stay Connected</h4>
+              <ul>
+                <li>Speaker</li>
+                <li>shedule</li>
+                <li>Gallery</li>
+                <li>Sponsors</li>
+                <li>Register Now</li>
+              </ul>
             </div>
-            
+          </div>
 
+        </div>
 
-        </section>
-
-
-        <section>
-            <h1 class="contentTitle">Meet the Speaker</h1>
-
-            <div class="speakerInfo">
-
-                <div class="singleSpeaker">
-                    <div>
-                        <div>
-                            <img src="./assets/andrej.png" alt="Andrej's img">
-                        </div>
-
-                         <div class="speakerContent">
-                            <h6>AI/ML</h6>
-                            <h3>Andrej Karpathy</h3>
-                            <p>Pretraining team, Anthropic</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="singleSpeaker">
-                    <div>
-                        <div class="img">
-                            <img src="./assets/demis.png" alt="Demis's img">
-                        </div>
-                        <div class="speakerContent">
-                            <h6>Cloud & Devops</h6>
-                            <h3>Demis Hossabis</h3>
-                            <p>Co-Founder and CEO, Google DepMind</p>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <div class="singleSpeaker">
-                    <div>
-                        <div class="img">
-                            <img src="./assets/gary.png" alt="Gary's img">
-                        </div>
-                        <div class="speakerContent">
-                            <h6>Frontend</h6>
-                            <h3>Gary Marcus</h3>
-                            <p>Staff Engineers, Vercel</p>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <div class="singleSpeaker">
-                    <div>
-                        <div class="img">
-                            <img src="./assets/mustafa.png" alt="Mustofa's img">
-                        </div>
-                        <div class="speakerContent">
-                            <h6>Security</h6>
-                            <h3>Mustofa Solaiman</h3>
-                            <p>CEO of Microsoft AI</p>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="card">
-            <h1 class="contentTitle">Secure your Spot</h1>
-            <p>Early-bird pricing ends August 15, 2026.</p>
-
-            <div class="premiumCard">
-                <div class="singleCard">
-                    <div class="cardPrice">
-                        <h5>Standard</h5>
-                        <h1>$399</h1>
-                        <h6>Per Person</h6>
-                    </div>
-
-                    <ul>
-                        <li>Access to all 3 conference days</li>
-                        <li>48 curated technical talks</li>
-                        <li>2 workshop sessions</li>
-                        <li>Networking lunch & coffee breaks</li>
-                        <li>Conference swag bag</li>
-                        <li>Digital recordings (30 days)</li>
-                    </ul>
-                    <div>
-                        <button class="btnOutline">Get Standerd</button>
-                    </div>
-                </div>
-
-                <div class="singleCard">
-                    <div class="cardPrice">
-                        <h5>Pro</h5>
-                        <h1>$749</h1>
-                        <h6>Per Person</h6>
-                    </div>
-
-                    <ul>
-                        <li>Everything in Standard</li>
-                        <li>Unlimited workshop access</li>
-                        <li>Speaker meet & greet</li>
-                        <li>VIP networking dinner</li>
-                        <li>Lifetime recording access</li>
-                        <li>1-on-1 mentorship (30 min)</li>
-                    </ul>
-                    <div>
-                        <button class="btn">Get Pro</button>
-                    </div>
-                </div>
-
-                <div class="singleCard">
-                    <div class="cardPrice">
-                        <h5>Team</h5>
-                        <h1>$5,999</h1>
-                        <h6>Up to 10 people</h6>
-                    </div>
-
-                    <ul>
-                        <li>Everything in Pro (10 seats)</li>
-                        <li>Dedicated team lounge access</li>
-                        <li>Private workshop booking</li>
-                        <li>Company logo on event page</li>
-                        <li>Recruitment booth (1 day)</li>
-                        <li>Priority customer support</li>
-                    </ul>
-                    <div>
-                        <button class="btnOutline">Contact Us</button>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-
-        <!-- conference Schedule -->
-      
-        <section>
-            <div class="attendTitle">
-                <h1 class="contentTitle">Conference Schedule</h1>
-                <p>Two inspiring days packed with keynotes, workshops, networking, and cutting-edge technology sessions.</p>
-
-            </div>
-
-            <div class="shedule">
-                <div class="singleShedule">
-                    <h5>09:00 AM</h5>
-                    <h2>The Future of AI-Powered Development</h2>
-                    <h4>Opening Keynote</h4>
-
-                    <h4>🎤 Sarah Johnson</h4>
-                </div>
-
-                <div class="singleShedule">
-                    <h5>10:00 AM</h5>
-                    <h2>Building Full-Stack Apps with Next.js 16</h2>
-                    <h4>Technical Session</h4>
-
-                    <h4>🎤 Michael Chen</h4>
-                </div>
-
-                <div class="singleShedule">
-                    <h5>11:15 AM</h5>
-                    <h2>Modern CSS: Container Queries & CSS Nesting</h2>
-                    <h4>Frontend Track</h4>
-
-                    <h4>🎤 Aisha Patel</h4>
-                </div>
-
-                <div class="singleShedule">
-                    <h5>01:30 PM</h5>
-                    <h2>TypeScript Best Practices</h2>
-                    <h4>Developer Session</h4>
-
-                    <h4>🎤 Emma Wilson</h4>
-                </div>
-
-                <div class="singleShedule">
-                    <h5>02:45 PM</h5>
-                    <h2>AI Coding Assistants & Developer Productivity</h2>
-                    <h4>AI Track</h4>
-
-                    <h4>🎤 David Kim</h4>
-                </div>
-
-                <div class="singleShedule">
-                    <h5>04:30 PM</h5>
-                    <h2>Will AI Replace Developers?</h2>
-                    <h4>Panel Discussion</h4>
-
-                    <h4>🎤 Industry Experts</h4>
-                </div>
-
-            </div>
-
-
-        </section>
-
-
-     </main>
-
-</body>
+        <!-- copyrigth -->
+         <div class="copyRight">
+            <h4>Copyright © 2026 All Rights Reserved.</h4>
+         </div>
+      </div>
+    </footer>
+  </body>
 </html>
